@@ -3,7 +3,7 @@
 var halvesAreAlike = function(s) {
     let countOfA = 0;
     let countOfB = 0;
-    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 
     for(let i = 0 ; i < Math.floor(s.length/2) ; i++)
     {
