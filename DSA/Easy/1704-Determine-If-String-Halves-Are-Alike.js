@@ -5,7 +5,7 @@ var halvesAreAlike = function(s) {
     let countOfB = 0;
     const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 
-    for(let i = 0 ; i < Math.floor(s.length/2) ; i++)
+    for(let i = 0 ; i < s.length/2 ; i++) // s will always be even 
     {
         if(vowels.includes(s[i]))
         {
@@ -13,7 +13,7 @@ var halvesAreAlike = function(s) {
         }
     }
 
-    for(let i = Math.floor(s.length/2) ; i < s.length ; i++)
+    for(let i = s.length/2 ; i < s.length ; i++)
     {
         if(vowels.includes(s[i]))
         {
